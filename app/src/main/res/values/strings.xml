@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MQTT POC</string>
+    <string name="enter_message">Enter message</string>
+    <string name="publish_message">Publish Message</string>
 </resources>
