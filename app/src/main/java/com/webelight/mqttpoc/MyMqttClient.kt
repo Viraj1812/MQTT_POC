@@ -39,7 +39,6 @@ class MyMqttClient {
             val options = MqttConnectOptions()
             options.isCleanSession = true
             mqttClient?.connect(options)
-            Log.d("fuck you", "connection done")
 
         } catch (e: MqttException) {
             e.printStackTrace()
